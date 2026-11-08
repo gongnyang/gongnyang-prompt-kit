@@ -1,6 +1,6 @@
 ---
 name: image-prompt
-version: "4.0.0"
+version: "4.1.0"
 description: 막연한 요청을 gpt-image-2(Codex `$imagegen`) 완성 프롬프트로 컴파일. 커버 — 카테고리 C1~C12·화보 Format B·홍보물 P1~P12·타이포 포스터 TP1~TP17·룩 L1~L9·컨셉 축 M/R/X/T·jsonl·검증기. 트리거 — "공냥 프롬프트", "이미지 프롬프트 써줘", "화보 프롬프트", "키아트", "타이포 포스터", "홍보물/판촉물", "표지/앨범커버/북커버", "활자 견본/워드마크", "포스터/카드뉴스/만화", "슬라이드/피피티 이미지", "글자 배치", "프롬프트 jsonl", "컨셉부터 잡아줘", "시안 여러 개". ※ 생성·양산은 [codex-imagegen].
 ---
 
@@ -33,6 +33,7 @@ description: 막연한 요청을 gpt-image-2(Codex `$imagegen`) 완성 프롬프
 | 프레젠테이션·슬라이드 덱 | C12 | `references/category-patterns.md` §C12 |
 | 무드("있어보이게"·"럭셔리"·"영화처럼") | 룩 L1~L9 | `references/look-presets.md` 프리셋 1개 드롭인 |
 | 시안 다변화·양산 컨셉·"차별화"·"컨셉부터" | M/R/X/T축 | `references/concept-axes.md` 축 1개 변주 |
+| 포스터 판 짜기·그리드 이름(모듈·사선·방사 등)·쌓은 제목·가운데 정렬 탈출 | 그리드 24(레이어) | `references/typo-poster/grid-names.md` — 패턴 행과 겹쳐 Scene 첫 문장에 |
 | 글자 배치·폰트·그리드·밀집 텍스트 | — | `references/typography-layout.md` |
 | 카메라·조명·색 어휘 | — | `references/photo-vocab.md` |
 | jsonl 배치·모델 팩트·완성 예제·codex 골격·8섹션 변형 | — | `references/jsonl-and-examples.md` |
